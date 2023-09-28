@@ -18,6 +18,6 @@ jobs:
 
       - name: Run unit tests
         run: |
-          npm install --production --prefix tmp yar
+          npm install --production --prefix tmp yarn
           tmp/node_modules/yarn/bin/yarn --production install --flat --cache-folder ~/.cache/yarn/gyp_test
 
